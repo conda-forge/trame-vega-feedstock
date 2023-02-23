@@ -1,5 +1,5 @@
 {% set name = "trame-vega" %}
-{% set version = "2.0.2" %}
+{% set version = "2.0.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/trame-vega-{{ version }}.tar.gz
-  sha256: 734ac93b51950d49aa20cccf0b332232c74f14d26ef5f981dde56d41de1fa6b4
+  sha256: 27c58fc1ab15af86ec1a376e9523534f6b81ac4100d3d624d74a131de91fe189
 
 build:
   number: 0
